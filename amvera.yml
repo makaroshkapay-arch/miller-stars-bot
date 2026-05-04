@@ -1,0 +1,8 @@
+version: 1.0
+runtime: python3.10
+# Если файл с зависимостями в корне
+build:
+  requirements: requirements.txt
+run:
+  # Указываем твой основной файл
+  command: python main.py
